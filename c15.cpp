@@ -25,6 +25,12 @@ int main()
         AB = AB + BC;
         BC = AB - BC;
         AB = AB - BC;
+    } 
+    if(BC > AC)
+    {
+        BC = BC + AC;
+        AC = BC - AC;
+        BC = BC - AC;
     }
     if(BC1 > AC1)
     {
@@ -37,6 +43,12 @@ int main()
         AB1 = AB1 + BC1;
         BC1 = AB1 - BC1;
         AB1 = AB1 - BC1;
+    } 
+    if(BC1 > AC1)
+    {
+        BC1 = BC1 + AC1;
+        AC1 = BC1 - AC1;
+        BC1 = BC1 - AC1;
     }
     //a
     if(AB == AB1 && AC == AC1 && BC == BC1)
