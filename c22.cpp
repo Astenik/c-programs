@@ -6,7 +6,7 @@ int main()
     std::cin >> n;
     int lastDig = n % 10;
     int thirdDig = (n / 100) % 10;
-    bool t = lastDig - thirdDig == 3 ? true : false;
-    std::cout << std::boolalpha << t << std::endl;
+    int t = lastDig - thirdDig == 3 ? 1 : n*n;
+    std::cout << t << std::endl;
     return 0;
 }
