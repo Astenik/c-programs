@@ -21,7 +21,7 @@ int main() {
         std::cout << "YES" << std::endl;
     } 
     //d
-    if(a%2 & b&2  | !(a%2) & !(b%2))
+    if(!((a+b)%2))
     {
         std::cout << "YES" << std::endl;
     }
